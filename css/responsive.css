@@ -1,0 +1,92 @@
+
+@media only screen and (max-width: 1000px){
+    #artistas img{
+        width: 600px;
+    }
+
+    .right img{
+        margin-left: 20px;
+        width: 250px;
+        margin-top: 70px;
+        align-items: center;
+        
+    }
+    
+    #servicos .card{
+        width: 250px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    #artistas img{
+        width: 450px;
+    }
+    
+    .right img{
+        margin-left: 30px;
+        width: 400px;
+        margin-top: 70px;
+        align-items: center;
+        
+    }
+
+    #servicos .card{
+        width: 300px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    #artistas img{
+        width: 400px;
+    }
+
+    .right img{
+        margin-left: 60px;
+        width: 350px;
+        margin-top: 70px;
+        align-items: center;
+    }
+
+    #servicos .card{
+        width: 300px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    #artistas img{
+        width: 400px;
+    }
+
+    .right img{
+        margin-left: 60px;
+        width: 200px;
+        margin-top: 70px;
+        align-items: center;
+    }
+
+    #servicos .card{
+        width: 250px;
+        margin-top: 20px;
+}}
+
+
+@media only screen and (max-width: 380px){
+    #artistas img{
+        width: 300px;
+    }
+
+    .right img{
+        margin-left: 20px;
+        width: 250px;
+        margin-top: 70px;
+        align-items: center;
+    }
+
+    #servicos .card{
+        width: 250px;
+        margin-top: 20px;
+    }
+}

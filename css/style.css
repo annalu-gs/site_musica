@@ -1,0 +1,190 @@
+* body, html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
+
+
+#header{
+    width: 100%;
+    transition: background ease-out 0.2s;
+    position: fixed;
+    box-shadow: 0 0 30px 0 #e6e6e6;
+    z-index: 99999;
+    background-color: var(--light) !important;
+
+}
+
+#header .navbar-brand{
+    font-weight: 700;
+}
+
+#apresentacao{
+   background-image: url(../assets/images/back1.png) ;
+   background-repeat: no-repeat;
+   background-position: left bottom;
+   background-size: 900px;
+   
+}
+
+#apresentacao h1{
+    font-weight: 600;
+}
+
+#header .btn-cadastrar{
+    width: 120px;
+    border-radius: 24px;
+    margin-right: 5px;
+    color: #000;
+}
+
+#header .btn-cadastrar:hover{
+    color: var(--light)
+}
+
+#header .btn-login{
+    width: 90px;
+    border-radius: 24px;
+}
+
+#apresentacao .btn-login{
+    width: 120px;
+    margin-top: 15px;
+    border-radius: 24px;
+}
+
+.button-primary-outline{
+    width: 90px;
+    border-radius: 24px;
+    margin-left: 5px;
+}
+
+.button-primary-outline:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+    
+}
+
+.button-primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-cadastrar1{
+    width: 120px;
+    margin-top: 15px;
+    border-radius: 24px;
+}
+
+#header .nav-item{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #000;
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-item:hover{
+    border-bottom: solid 2px var(--primary);
+}
+
+/*servicos*/
+
+h3{
+    font-weight: 600;
+    
+}
+
+#servicos .card-title{
+    font-weight: 800;
+}
+
+#servicos .card{
+    margin-top: 140px;
+    border-color: transparent;
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+}
+
+
+.card-title{
+    text-align: left;
+}
+
+#servicos .card-img-top{
+   width: 70px;
+   height: 90px;
+   margin-left: 5px;
+}
+
+#servicos .img-play{
+    margin-left: 15px;
+}
+
+
+
+/*end servicos*/
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+
+h5{
+    display: flex;
+    justify-content: center;   
+}
+
+#artistas img{
+    width: 800px;
+    display: flex;
+    margin-top: 60px;
+}
+
+#sobre{
+    margin-top: 140px;
+    background-image: url(../assets/images/back1.png) ;
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-position:bottom right;
+}
+
+.left{
+   text-align: right;
+}
+
+.right img{
+    width: 350px;
+    margin-left: 60px;
+}
+
+
+#rodape{
+   margin-top: 90px;
+   background-color: var(--dark);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    color: #b3b3b3;
+   
+}
+
+.icons{
+    margin-bottom: 20px;
+}
+
+.icons a{
+    padding: 10px;
+}
+
+
